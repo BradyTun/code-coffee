@@ -32,7 +32,7 @@ const Nav = () => {
                 </li>
                 <li>
                     <a
-                        href="#take-coffee"
+                        href="#coffee"
                         className="bg-accent text-bg px-5 py-2 rounded hover:bg-hover transition-colors duration-200 font-semibold"
                     >
                         <FaCoffee className="inline-block mr-4" />
@@ -77,7 +77,7 @@ const Nav = () => {
                     </li>
                     <li>
                         <a
-                            href="#take-coffee"
+                            href="#coffee"
                             className="bg-accent text-bg px-5 py-2 rounded hover:bg-hover transition-colors duration-200 font-semibold flex items-center"
                             onClick={() => setMenuOpen(false)}
                         >
